@@ -1,0 +1,50 @@
+form{
+	float: left;
+}
+table{
+	text-align: center;
+	background-color: aliceblue;
+	width: 381px;
+	margin-top: 20px;
+	font-size: 15px;
+	border: 1px solid cornflowerblue;
+}
+
+#td_r1{
+	background-image: url(../img/login_head.gif);
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	height: 23px;
+}
+
+#td_name {
+	text-align: right;
+	height: 30px;
+}
+#td_inupt {
+	width: 150px;
+}
+
+#td_href {
+	text-align: left;
+}
+
+#in_submit {
+	background-image: url(../img/login_submit.gif);	
+	width: 137px;
+	height: 30px;	
+}
+#td_submit {
+	height: 50px;
+}
+
+#img_rihgt {
+	margin-left: 200px;
+	clear: left;
+}
+
+#img_bottom {
+	clear: left;
+	margin-top: 30px;
+}

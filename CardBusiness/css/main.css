@@ -1,0 +1,36 @@
+table {
+	width: 950px;
+	text-align: center;
+	font-size: 14px;
+	border-style: hidden;
+}
+td {
+	border-style: hidden;
+	border-bottom:1px solid gainsboro;
+	height: 100px;
+}
+span {
+	font-size: 12px;
+}
+.tr_1 {
+	height: 30px;
+	border-bottom-style: hidden;
+}
+#td_c1 {
+	width: 70%;
+	text-align: left;
+}
+#td_ck {
+	float: left;
+}
+#td_img {
+	vertical-align: top;
+	float:left
+}
+#card_name{
+	color: blue;
+}
+.price {
+	color: orange;
+}
+

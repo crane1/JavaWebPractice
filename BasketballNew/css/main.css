@@ -1,0 +1,21 @@
+.title {
+	font-size: 30px;
+	color: red;
+}
+
+p#img_text{
+	float: left;
+	margin-left: 20px;
+}
+
+#star_pic {
+	width: 800px;
+}
+
+a:hover{
+	color: pink;
+}
+
+a:active {
+	color:black
+}
