@@ -1,0 +1,138 @@
+#main {
+	width: 955px;
+	margin: 0 auto;
+}
+#top_logo{
+	
+}
+#top_logo1{
+	float: left;
+}
+#top_logo2{
+	float: right;
+}
+
+#tb_search {
+	width: 955px;
+	background-image: url(../img/main/back_orange.PNG);
+	background-size: 17px 55px;
+	border-style: hidden;
+	text-indent: 4em;
+}
+
+.td_search {
+	border-style: hidden;
+}
+
+#td_search1 {
+	border-bottom: 1px solid gainsboro;
+	text-indent: 2.5em;
+}
+
+#img_zhounian {
+	margin-top: 5px;
+	text-indent: 5px;
+}
+
+#inner_index{
+	float: left;
+}
+#inner_index1 {
+	width: 250px;
+	font-size: 12px;
+	line-height: 22px;
+	float: left;
+	margin-top: 20px;
+}
+
+#p_wangyou {
+	margin-top: -2px;
+	margin-right: 10px;
+	float: left;
+}
+#img_wangyou {
+	width: 120px;
+	height: 152px;
+}
+#inner_index2 {
+	width: 430px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#inner_index3 {
+	width: 275px;
+	float: left;
+	text-align: right;
+}
+#scroll_adv {
+	float: left;
+	width: 180px;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+#index_5 {
+	float: right;
+	
+}
+
+.img_adv {
+	margin-top: 20px;
+}
+
+#inner_box4 {
+	float: left;
+	width: 955px;
+	height: 286px;
+	background-image: url(../img/main/table_back.gif);
+	background-repeat: no-repeat;
+}
+#inner_box4_1 {
+	float: left;
+	width: 250px;
+	/*border: dashed;*/
+}
+
+#jishi_title{
+	margin-top:30px;
+	margin-left: 12px;
+	font-size:13px;
+	/*color: blue;*/
+	
+}
+#hr_jishi {
+	width: 234px;
+	margin-left: 8px;
+	color: lightgoldenrodyellow;
+	/*border: 0px;*/
+}
+
+#remaishouji {
+	margin-top: -4px;
+	margin-left: 5px;
+}
+#icon_4 {
+	margin-left: 8px;
+	margin-top: 0px;
+	float: left;
+	/*border: dashed;*/
+}
+#new_4 {
+	float: left;
+	margin-top: 0px;
+	margin-left: 2px;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	/*border: dashed;*/
+}
+#news_pre1{
+	margin-top: 0px;
+}
+.news_pre{
+	margin-top:-9px
+}
