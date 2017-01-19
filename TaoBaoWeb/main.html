@@ -22,7 +22,7 @@
 					<a href="#"><img src="img/main/banner_5.gif"/></a>
 					<a href="#"><img src="img/main/banner_6.gif"/></a>
 					<br />
-					您好欢迎来淘宝![免费注册][登录]阿里旺旺 支付宝
+					您好,欢迎来淘宝![<a href="#" id="login">免费注册</a>][<a href="#" id="login">登录</a>]阿里旺旺 支付宝
 				</div>
 			</div><br/>
 			<div id="top_index">
@@ -48,20 +48,20 @@
 						</tr>
 						<tr>
 							<td class="td_search">热门搜索：
-								<a href="#">T恤</a>
-								<a href="#">女鞋</a>
-								<a href="#">手机</a>
-								<a href="#">比基尼</a>
-								<a href="#">魔兽世界</a>
-								<a href="#">减肥</a>
-								<a href="#">七分裤</a>
-								<a href="#">娃娃衫</a>
-								<a href="#">特价机票</a>
-								<a href="#">连衣裙</a>
-								<a href="#">Q币</a>
-								<a href="#">美白防晒</a>
-								<a href="#">热销品</a>
-								<a href="#">二手房</a>
+								<a href="#" class="item_search">T恤</a>
+								<a href="#" class="item_search">女鞋</a>
+								<a href="#" class="item_search">手机</a>
+								<a href="#" class="item_search">比基尼</a>
+								<a href="#" class="item_search">魔兽世界</a>
+								<a href="#" class="item_search">减肥</a>
+								<a href="#" class="item_search">七分裤</a>
+								<a href="#" class="item_search">娃娃衫</a>
+								<a href="#" class="item_search">特价机票</a>
+								<a href="#" class="item_search">连衣裙</a>
+								<a href="#" class="item_search">Q币</a>
+								<a href="#" class="item_search">美白防晒</a>
+								<a href="#" class="item_search">热销品</a>
+								<a href="#" class="item_search">二手房</a>
 							</td>
 						</tr>
 					</table>
@@ -84,7 +84,7 @@
 					<img src="img/main/adv/adv_1.jpg" />
 				</div>
 				<div id="inner_index3">
-					<marquee direction="up" id="scroll_adv">
+					<marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()" id="scroll_adv">
 						<img src="img/main/scroll/1.gif" class="img_adv"/>&emsp;<a href="#">"gf"化妆品</a><br />
 						<img src="img/main/scroll/2.gif" class="img_adv"/>&emsp;<a href="#">迷魂药</a><br />
 						<img src="img/main/scroll/3.gif" class="img_adv"/>&emsp;<a href="#">手机</a><br />
@@ -138,11 +138,124 @@
 						<p>
 					</div>
 				</div>
-				<div id="inner_box4_2"></div>
-				<div id="inner_box4_3"></div>
-				<div id="inner_box4_4"></div>
+				<div id="inner_box4_2">
+					<p id="p_box_4_2"><img src="img/main/pinpai1.gif" /></p>
+				</div>
+				<div id="inner_box4_3">
+					<p id="p_box_4_2"><img src="img/main/ershou1.gif" /></p>
+				</div>
+				<div id="inner_box4_4">
+					<input type="button" id="btn_dianka"/>
+					<input type="button" id="btn_chongzhi"/>
+					<img src="img/main/tab1_downshow.gif" id="downshow"/>
+					<img src="img/main/tab_bottom.gif" />
+				</div>
 			</div>
+			<div id="inner_box5">
+				<div id="inner_box5_1">
+					<div id="type_content1">
+						<p id="type_title"><a href="#">手机充值</a>、<a href="#">IP卡/电话卡</a></p>
+						<p id="type_content">
+							<a href="#">移动</a> | <a href="#">50</a> | <a href="#">100</a> | <a href="#">联通</a> | <a href="#">50</a>
+							 | <a href="#">100</a> | <a href="#">网络电话</a>
+						</p>
+					</div>
+					
+					<div id="type_content2">
+						<p id="type_title"><a href="#">手机</a>（<a href="#">诺基亚</a> <a href="#">MOTO</a>
+							<a href="#">三星</a> <a href="#">索爱</a> <a href="#">多普达</a>）
+						</p>
+						<p id="type_content">
+							<a href="#">N73</a> | <a href="#">N72</a> | <a href="#">N95</a> | <a href="#">D908</a> | <a href="#">E908</a>
+							 | <a href="#">E6</a> | <a href="#">A1200</a>
+						</p>
+					</div>
+					<div id="type_content2">
+						<p id="type_title"><a href="#">笔记本电脑</a>
+						</p>
+						<p id="type_content">
+							<a href="#">IBM</a> | <a href="#">惠普</a> | <a href="#">DELL</a> | <a href="#">华硕</a> | <a href="#">SONY</a>
+							 | <a href="#">苹果</a>
+						</p>
+					</div>
+				</div>
 
+				<div id="inner_box5_all">
+					<div id="type_content1">
+						<p id="type_title"><a href="#">网游</a>、<a href="#">点卡</a>、
+							<a href="#">金币</a>、<a href="#">装备</a>、<a href="#">账号</a>、
+						</p>
+						<p id="type_content">
+							<a href="#">征途</a> | <a href="#">魔兽</a> | <a href="#">自动发货</a> 
+							 | <a href="#">QQ专区</a> | <a href="#">外服专区</a>
+						</p>
+					</div>
+					
+					<div id="type_content2">
+						<p id="type_title"><a href="#">电脑硬件</a>、<a href="#">台式整机</a>、<a href="#">网络设备</a>
+						</p>
+						<p id="type_content">
+							<a href="#">CPU</a> | <a href="#">主板</a> | <a href="#">内存</a> | <a href="#">硬盘</a> | <a href="#">显卡</a>
+							 | <a href="#">液晶LCD</a>
+						</p>
+					</div>
+					<div id="type_content2">
+						<p id="type_title"><a href="#">办公设备</a>、<a href="#">文具</a>、<a href="#">耗材</a>
+						</p>
+						<p id="type_content">
+							<a href="#">打印机</a> | <a href="#">电子辞典</a> | <a href="#">墨盒</a> | <a href="#">刻录盘</a> | <a href="#">投影机</a>
+						</p>
+					</div>
+				</div>
+
+				<div id="inner_box5_all">
+					<div id="type_content1_3">
+						<p id="type_title"><a href="#">电子客票</a>、<a href="#">电子彩票</a></p>
+						<p id="type_content">
+							<a href="#">福彩</a> | <a href="#">体彩</a> | <a href="#">足彩</a> | <a href="#">特价机票</a> | <a href="#">京广沪始发</a>
+						</p>
+					</div>
+					<div id="type_content2_3">
+						<p id="type_title"><a href="#">数码相机</a>、<a href="#">摄像机</a> <a href="#">单反</a>
+						</p>
+						<p id="type_content">
+							<a href="#">索尼</a> | <a href="#">佳能</a> | <a href="#">三星</a> | <a href="#">JVC</a> | <a href="#">镜头</a>
+							 | <a href="#">冲印</a>
+						</p>
+					</div>
+					<div id="type_content2_3">
+						<p id="type_title"><a href="#">MP3</a><a href="#">MP4</a>、<a href="#">iPod</a> <a href="#">录音笔</a>
+						</p>
+						<p id="type_content">
+							<a href="#">魅族</a> | <a href="#">纽曼</a> | <a href="#">索尼</a> | <a href="#">艾利和</a> | <a href="#">爱国者</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="inner_box_bottom">
+				<hr width="955px" color="gainsboro"/>
+				<p id="guanyu">
+					<a href="#">关于淘宝</a> <a href="#">广告服务</a> <a href="#">合作伙伴</a> 
+					<a href="#">客户中心</a> <a href="#">诚征英才</a> <a href="#">联系我们</a> 
+					<a href="#">网站地图</a> <a href="#">热门品牌</a> <a href="#">版权说明</a>  
+				</p>
+				<p id="zhandian">全球阿里巴巴：
+					<a href="#">中国站</a> <a href="#">国际站</a> <a href="#">日文站</a> 
+					<a href="#">淘宝站</a> <a href="#">支付宝</a> <a href="#">中国雅虎</a> 
+					<a href="#">口碑网</a> <a href="#">阿里软件</a> <a href="#">淘宝推广联盟</a> 
+				</p>
+				<p>
+					Copyright 2003-2007，版权所有 TAOBAO.com
+				</p>
+				<p>
+					ICP证：浙B2-20050291
+				</p>
+				<p>
+					广告经营许可证号：3301061000468
+				</p>
+
+			</div>
 		</div>
 	</body>
 </html>
