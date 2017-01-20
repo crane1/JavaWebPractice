@@ -10,6 +10,7 @@
 }
 #top_logo2{
 	float: right;
+	font-size: 13px;
 }
 
 a:link {
@@ -36,6 +37,7 @@ a#login:hover {
 	background-size: 17px 55px;
 	border-style: hidden;
 	text-indent: 4em;
+	font-size: 13px;
 }
 
 .td_search {
@@ -46,6 +48,7 @@ a#login:hover {
 #td_search1 {
 	border-bottom: 1px solid gainsboro;
 	text-indent: 2.5em;
+	word-spacing: 0.2em;
 }
 
 #img_zhounian {

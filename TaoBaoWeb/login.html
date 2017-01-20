@@ -54,7 +54,7 @@
 									<input type="text" />
 								</select>
 								<input type="button" value="搜索" />
-								[高级搜索][使用帮助]
+								[ 高级搜索 ] [ 使用帮助 ]
 							</td>
 						</tr>
 						<tr>
@@ -81,24 +81,26 @@
 			<div id="rs_inner_box">
 				<div id="rs_inner_box1">
 					<p><img src="img/login/title_login_2.gif"/></p>
-					<table style="margin-left: 120px;" >
-						<tr>
-							<td>会员名<font color="red">*</font></td>
-							<td><input type="text" name="username" id="name" /></td>
-							<td>（可包含a-z、0-9 和下划线）</td>
-						</tr>
-						<tr>
-							<td>密&emsp;码<font color="red">*</font></td>
-							<td><input type="password" name="userpwd" id="pwd" /></td>
-							<td>（至少包含 6 个字符）</td>
-						</tr>
-						<tr align="center">
-							<td colspan="3">
-								<input type="submit" name="login" value="登录"/>
-								<input type="reset" name="reset" value="重置"/>
-							</td>
-						</tr>
-					</table>
+					<form action="login_success.html" method="get">
+						<table style="margin-left: 120px;" >
+							<tr>
+								<td>会员名<font color="red">*</font></td>
+								<td><input type="text" name="username" id="name" /></td>
+								<td>（可包含a-z、0-9 和下划线）</td>
+							</tr>
+							<tr>
+								<td>密&emsp;码<font color="red">*</font></td>
+								<td><input type="password" name="userpwd" id="pwd" /></td>
+								<td>（至少包含 6 个字符）</td>
+							</tr>
+							<tr align="center">
+								<td colspan="3">
+									<input type="submit" name="login" value="登录"/>
+									<input type="reset" name="reset" value="重置"/>
+								</td>
+							</tr>
+						</table>
+					</form>
 					<p><img src="img/login/register_leftfoot.gif"/></p>
 				</div>
 				<div id="rs_inner_box2">

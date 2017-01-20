@@ -7,11 +7,24 @@
 		<title></title>
 		<link rel="stylesheet" href="css/main.css" />
 		<style type="text/css">
-			p{
+			table#tb_show{
+				margin-top: 30px;
+				border-style: hidden;
+				line-height: 30px;
+				border-collapse: collapse;
+				font-size: 13px;
+			}
+			tr.tr_info {
+				border-bottom: 1px dashed black;
+			}
+			td.in_check {
 				text-align: center;
 			}
-			div#rs_inner_box {
-				margin-top: 50px;
+			.comm_name {
+				font-weight: bold;
+			}
+			.price {
+				color: orange;
 			}
 		</style>
 	</head>
@@ -75,13 +88,61 @@
 					</table>
 				</div>
 			</div>
-			<div id = rs_inner_box>
-				<p><img src="img/main/logo.gif"/></p>
-				<p style="font-size: 30px;">祝贺 ！！！</p>
-				<p style="font-size: 20px;">您已经通过我们的注册
-				<p style="font-size: 20px;">欢迎来到 拍卖天堂</p>
+			<div>
+				<table border="0" cellspacing="0" cellpadding="" id="tb_show">
+					<tr><th colspan="4"><img src="img/shopping/commodity_tablehead.gif"></th></tr>
+					<tr class="tr_info">
+						<td>我要购买</td>
+						<td>宝贝图片</td>
+						<td> 宝贝名称/卖家/阿里旺旺</td>
+						<td>价格</td>
+					</tr>
+					<tr class="tr_info" >
+						<td class="in_check"><input type="checkbox"></td>
+						<td><img src="img/shopping/commodity_huaping.jpg"/></td>
+						<td>
+							<a href="#" class="comm_name">三国群英传免费区（电信/网通各区都有货）玉露酒一组250个3.3元</a><br/>
+							卖家：<a href="#">ling112233</a><br />
+							<img src="img/shopping/online_pic.gif">&emsp;&emsp;
+							<img src="img/shopping/list_tool_fav1.gif"/><a href="#">收藏</a>
+						</td>
+						<td>一口价<br/><span class="price">238.30</span></td>
+					</tr>
+					<tr class="tr_info">
+						<td class="in_check"><input type="checkbox"></td>
+						<td><img src="img/shopping/commodity_pig.jpg"/></td>
+						<td>
+							<a href="#" class="comm_name">跑跑卡丁车福猪宝宝 4.5元/10天 全区</a><br/>
+							卖家：<a href="#">aipiaopiao110</a><br/>
+							<img src="img/shopping/online_pic.gif">&emsp;&emsp;
+							<img src="img/shopping/list_tool_fav1.gif"/><a href="#">收藏 </a>
+						</td>
+						<td>一口价<br/><span class="price">246.00</span></td>
+					</tr>
+					<tr class="tr_info">
+						<td class="in_check"><input type="checkbox"></td>
+						<td><img src="img/shopping/commodity_paopao.jpg"/></td>
+						<td>
+							<a href="#" class="comm_name">五钻信誉：泡泡堂全区代买8折，拍前联系</a><br/>
+							卖家：<a href="#">阳光的挣扎</a><br/>
+							<img src="img/shopping/online_pic.gif">&emsp;&emsp;
+							<img src="img/shopping/list_tool_fav1.gif"/><a href="#">收藏</a>
+						</td>
+						<td>一口价<br/><span class="price">188.80</span></td>
+					</tr>
+					<tr class="tr_info">
+						<td class="in_check"><input type="checkbox"></td>
+						<td><img src="img/shopping/commodity_dance.jpg"/></td>
+						<td>
+							<a href="#" class="comm_name">劲舞团 双倍经验卡246 元/1000张[包安全]</a><br/>
+							卖家：<a href="#">疯狂的镜无</a><br/>
+							<img src="img/shopping/online_pic.gif">&emsp;&emsp;
+							<img src="img/shopping/list_tool_fav1.gif"/><a href="#">收藏</a>
+						</td>
+						<td>一口价<br/><span class="price">388.90</span></td>
+					</tr>
+				</table>
 			</div>
-			
 			
 			<div id="inner_box_bottom">
 				<hr width="955px" color="gainsboro"/>
@@ -109,3 +170,4 @@
 		</div>
 	</body>
 </html>
+
